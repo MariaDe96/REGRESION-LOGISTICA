@@ -1,4 +1,5 @@
-from utils import db_connect
-engine = db_connect()
+import pandas as pd
+from dotenv import load_dotenv
+load_dotenv()
 
 # your code here
